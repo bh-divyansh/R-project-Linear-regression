@@ -380,8 +380,8 @@ mydf2 <- as.data.frame(working_data[second])
 y <- mydf1[[first]]
 x <- mydf2[[second]]
 
-model <- lm(y ~ x)
+plot(x, y, pch = 16,xlab = first,ylab = second, title(main = "Regression Line"))
+abline(lm(y ~ x), col = 4, lwd = 3)
 
-plot(x, y, xlab = first, ylab = second, title(main = "Regression Line"))
-abline(model)
-summary(model)
+coef <- round(coef(lm(y ~ x)), 2)
+text(min(x)+(max(x)-min(x))*0.4,min(y)+(max(y)-min(y))*0.7,paste("y = ", coef[1], "+", coef[2],"x"))
