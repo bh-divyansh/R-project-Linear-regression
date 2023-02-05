@@ -6,3 +6,5 @@ I and [@Daring15107](https://github.com/Daring15107) worked on this R project wh
 ### To learn more about this project, head over to [this link right here](https://docs.google.com/document/d/1scNLKdHnTqwViSerfJdffKqkwGKUxLTyydWmMlfh0Qw/edit?usp=sharing).
 
 This project has some issues, I would be more than happy to have you as a contributor. [Check them out](https://github.com/bh-divyansh/R-project-Linear-regression/issues)
+
+pull request
